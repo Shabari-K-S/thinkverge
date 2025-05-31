@@ -1,40 +1,54 @@
-# Welcome to your Lovable project
+# ThinkVerge - Empowering Minds Through Technology Education
 
-## Project info
+![ThinkVerge Logo](public/logo.png)
 
-**URL**: https://lovable.dev/projects/1e5d2fef-d43a-41cf-830a-309101263384
+## About ThinkVerge
 
-## How can I edit this code?
+ThinkVerge is a cutting-edge educational technology platform dedicated to transforming the way people learn programming and technology. Our platform offers comprehensive learning paths, interactive courses, and hands-on projects to help students master various programming languages and technical skills.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- 📚 Structured Learning Paths
+- 💻 Interactive Coding Environment
+- 🎯 Project-Based Learning
+- 🤝 Community Support
+- 📱 Responsive Design
+- 🌐 Modern UI/UX
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1e5d2fef-d43a-41cf-830a-309101263384) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (v18 or higher)
+- npm or yarn package manager
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+```bash
+git clone https://github.com/thinkverge/thinkverge.git
 ```
+
+2. Navigate to the project directory:
+```bash
+cd thinkverge
+```
+
+3. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+4. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+The application will be available at `http://localhost:5173`
 
 **Edit a file directly in GitHub**
 
@@ -60,14 +74,3 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1e5d2fef-d43a-41cf-830a-309101263384) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
