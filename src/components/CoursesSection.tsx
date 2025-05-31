@@ -37,7 +37,7 @@ const CoursesSection = () => {
     },
     {
       icon: '📐',
-      title: 'CAD Complete Course',
+      title: 'AutoCAD and Solidworks Course',
       description: 'Learn AutoCAD & SolidWorks from basics to professional-level product development.',
       duration: '10 weeks',
       level: 'Beginner to Expert',
