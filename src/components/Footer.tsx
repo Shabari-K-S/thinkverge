@@ -1,6 +1,3 @@
-
-import React from 'react';
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -18,13 +15,6 @@ const Footer = () => {
       'Careers',
       'Blog',
       'News'
-    ],
-    support: [
-      'Help Center',
-      'Contact Us',
-      'FAQs',
-      'Technical Support',
-      'Community'
     ]
   };
 
@@ -103,22 +93,11 @@ const Footer = () => {
 
           {/* Support Section */}
           <div className="animate-fade-in animate-delay-700">
-            <h3 className="text-white font-bold text-lg mb-6">Support</h3>
-            <ul className="space-y-3 mb-6">
-              {footerSections.support.map((item, index) => (
-                <li key={index}>
-                  <a href="#" className="text-gray-300 hover:text-thinkverge-blue transition-colors duration-300 flex items-center gap-2">
-                    <span className="w-1 h-1 bg-thinkverge-orange rounded-full"></span>
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
             
             {/* Contact Info */}
             <div className="space-y-2">
-              <p className="text-gray-300 text-sm">📧 support@thinkverge.com</p>
-              <p className="text-gray-300 text-sm">📞 +1 (555) 123-4567</p>
+              <p className="text-gray-300 text-sm">📧 thinkvergelearning@gmail.com</p>
+              <p className="text-gray-300 text-sm">📞 +91 76958 00855</p>
               <p className="text-gray-300 text-sm">🕒 24/7 Student Support</p>
             </div>
           </div>
