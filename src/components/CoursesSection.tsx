@@ -81,7 +81,7 @@ const CoursesSection = () => {
 
                 <p className="text-gray-300 mb-6 leading-relaxed">{course.description}</p>
 
-                <div className="space-y-4 mb-6">
+                <div className="space-y-4">
                   <div className="flex justify-between items-center">
                     <span className="text-gray-400">Duration:</span>
                     <span className="text-white font-semibold">{course.duration}</span>
@@ -91,20 +91,6 @@ const CoursesSection = () => {
                     <span className="text-white font-semibold">{course.level}</span>
                   </div>
                 </div>
-
-                <div className="space-y-2 mb-6">
-                  <h4 className="text-white font-semibold mb-3">What you'll learn:</h4>
-                  {course.features.map((feature, featureIndex) => (
-                    <div key={featureIndex} className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-gradient-to-r from-thinkverge-blue to-thinkverge-purple rounded-full"></div>
-                      <span className="text-gray-300 text-sm">{feature}</span>
-                    </div>
-                  ))}
-                </div>
-
-                <button className="w-full bg-gradient-to-r from-thinkverge-blue to-thinkverge-purple text-white py-3 rounded-lg font-semibold hover:scale-105 transition-transform group-hover:shadow-lg group-hover:shadow-thinkverge-blue/25">
-                  Enroll Now
-                </button>
               </div>
             </div>
           ))}
