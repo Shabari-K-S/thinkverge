@@ -43,7 +43,15 @@ const CoursesSection = () => {
       level: 'Beginner to Expert',
       features: ['2D/3D Design', 'Engineering Drawings', 'Product Development'],
     },
-    ];
+    {
+      icon: '🥽',
+      title: 'Foundation on Virtual Reality Development',
+      description: 'Learn VR development fundamentals and create immersive experiences using modern tools.',
+      duration: '10 weeks',
+      level: 'Beginner to Expert',
+      features: ['3D Modeling', 'VR Programming', 'Interactive Design']
+    }
+  ];
 
   return (
     <section id="courses" className="py-20 relative">
