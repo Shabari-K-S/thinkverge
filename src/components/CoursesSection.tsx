@@ -83,7 +83,7 @@ const CoursesSection = () => {
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-2">{course.title}</h3>
                   <div className="inline-flex items-center px-3 py-1 rounded-full bg-gradient-to-r from-thinkverge-blue/20 to-thinkverge-purple/20 border border-thinkverge-blue/30">
-                    <span className="text-thinkverge-blue text-sm font-semibold">🔴 Live Sessions</span>
+                    <span className="text-thinkverge-blue text-sm font-semibold">🟢 Live Sessions</span>
                   </div>
                 </div>
 
